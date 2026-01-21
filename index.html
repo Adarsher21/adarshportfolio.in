@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h2, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style2.css">
+</head>
+
+<body>
+    <div class="topline">
+       <marquee behavior="" direction="left"><h1>Hey Adarsh! Welcome to Adarsh development company
+       </h1></marquee> 
+    </div>
+<nav class="menu">
+    <ul>
+        <li> <a class="Active" href="index.html">Home</a></li>
+        <li> <a href="About.html">About</a></li>
+        <li> <a href="education.html">Education</a></li>
+        <li> <a href="#Services">Sarvices</a></li>
+        <li> <a href="Clients.html">Clients</a></li>
+        <li> <a href="portfolio.html">Portfolio</a></li>
+        <li> <a href="accounts.html">Accounts</a></li>
+        <li> <input type="text" placeholder="Search.."></li><hr>
+
+    </ul>
+</nav>
+    
+<main>
+    <article class="profile">
+           <img src="/assets/cyber security.jpg" alt="">
+        
+    <div class="audio1">
+        <h2> My Fevorite website development </h2>
+        <audio controls>
+            <source src="/assets/Namle_Sujatache_Sheer.mp3">
+        </audio>
+    </div> 
+    </article>
+    
+    <article class="name">
+            <h1> first article Develop </h1>
+        <div class="image-container">
+            <!-- <img src="cyber security.jpg" alt="Decorative Image"> -->
+        </div>
+
+        <article class="sub1">
+            <h1>Second Article for development</h1>
+        </article>
+        <div class="f1"> 
+            <h2>Subheading 1</h2>
+             <p>This is the first paragraph of the article. It introduces
+                 the topic and grabs the reader's attention.</p>
+            <h2>Subheading 2</h2>
+            <p>This section dives deeper into the topic, 
+                providing detailed information and examples.</p>
+            <input id="name" type="text">
+            <button type="button" onclick="EnterName()">Submit</button>
+            <p id="demo"></p>
+            <button>click</button>
+        </div>
+           
+    </article>
+
+        <p>This is a button example</p>
+        <button id="myBtn" type="button" >blaaa!</button>
+   
+    <script>
+        const myBtn= document.getElementById("myBtn");
+        
+        myBtn.addEventListener("click" , function(e) {
+            const name = prompt("what is your name?");
+            return name;
+            consol.console.log(name);
+            
+        });
+            
+        function EnterName() {
+            let user = document.getElementById("name").value;
+ 
+            document.getElementById("demo").innerHTML =
+                "Welcome to Geeks For Geeks " + user;
+        };
+    </script>
+    <footer>
+        <div><h1> Adarsh </h1></div>
+    
+   </footer>
+</body>
+</html>
