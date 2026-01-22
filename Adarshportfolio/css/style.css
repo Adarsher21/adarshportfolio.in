@@ -1,0 +1,65 @@
+*{
+    background-color: rgb(0, 102, 255);
+    align-items: center;
+    align-content:center;
+    text-align: center;
+    
+}
+
+/* button{
+    background-color:rgb(255, 0, 0);
+    padding : 10px;
+    margin: 4px 5px;
+    color : rgb(0, 255, 0);
+    cursor:pointer;
+    
+} */
+
+ul{
+    padding: 50px;
+    height: 2px;
+    align-items: center;
+    background: #e0c1c1;
+    color: rgb(233, 18, 18);
+   
+li{
+    display: inline;
+     text-align: center;
+    margin: 10px;
+
+}
+    color: rgb(200, 255, 0);
+}
+
+main {
+    padding: 40px;
+}
+article {
+    padding:20px;
+    
+}
+article {
+    max-width: 800px;
+    margin: auto;
+    background: #e00404;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(9, 174, 196, 0.1);
+}
+
+.image-container img {
+    opacity: 0.5; /* Sets the image opacity to 30% */
+    width: 100%; /* Adjusts the width of the image */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Ensures no unwanted space below the image */
+    margin-bottom: 20px; /* Adds space between the image and the article content */
+    border-radius: 8px; /* Gives the image rounded corners (optional) */
+}
+footer{
+    background-color: #686565;
+    display:inline;
+    margin: 0%;
+    padding: 0%;
+    border: 0px;
+
+}
